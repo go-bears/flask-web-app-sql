@@ -5,11 +5,11 @@
     <title>Student Info</title>
 </head>
 <body>
-<h1>This student was successfully added to the database!</h1>
+<h1>{{ first }} {{ last }} was successfully added to the database!</h1>
 
-<h2>{{ first }} {{ last }}</h2>
-
-<h2>GitHub Account: {{ github }}</h2>
+<h2>Click <a href="/student?github={{ github }}">here</a> to view the student's info</h2>
+<!-- 
+<h2>GitHub Account: {{ github }}</h2> -->
 
 
 </body>
